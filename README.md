@@ -1,3 +1,8 @@
+```bash 
+python train.py --dataroot ./datasets/maps --name maps_cyclegan --model cycle_gan
+python test.py --dataroot ./datasets/maps --name maps_cyclegan --model cycle_gan  # save all fakeB
+```
+
 <img src='imgs/horse2zebra.gif' align="right" width=384>
 
 <br><br><br>
